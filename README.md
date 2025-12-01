@@ -13,3 +13,8 @@ If you want the **full XBTUSD dataset (2013–2025, rebuilt from raw trades, zer
 
 The full historical **XBTUSD 1-minute OHLC dataset (2013–2025)** is available on Gumroad.  
 Includes trade-reconstructed candles, zero gaps, and verified data quality.
+# Sample format (list of lists)
+[
+   [timestamp_ms, open, high, low, close, volume],
+   ...
+]
