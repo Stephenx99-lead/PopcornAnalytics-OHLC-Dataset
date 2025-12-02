@@ -1,32 +1,66 @@
 # PopcornAnalytics-OHLC-Dataset
-High-quality crypto OHLC dataset reconstructed from raw trades (2013–2025). Free sample included.
-## 📥 Full XBTUSD 1-Minute OHLC Dataset (Gumroad)
+High-quality crypto OHLC dataset reconstructed from raw trades (2013–2025). Free samples included.
 
-This repository includes a 20MB sample of the reconstructed **XBTUSD 1-minute OHLC** data.
+---
 
-If you want the **full XBTUSD dataset (2013–2025, rebuilt from raw trades, zero gaps, extremely high accuracy)** you can get it on Gumroad:
+## 📌 Overview
 
-👉 **https://popcornanalytics.gumroad.com/l/xwnuid**
-## 📥 Full XBTUSD OHLC Dataset
+This repository contains multiple high-quality **XBTUSD 1-minute OHLC samples**, all reconstructed directly from raw Kraken trades using a custom pipeline.
 
-[![Get it on Gumroad](https://img.shields.io/badge/Gumroad-Download-orange?style=for-the-badge&logo=gumroad)](https://popcornanalytics.gumroad.com/l/xwnuid)
+This dataset is designed for:
 
-The full historical **XBTUSD 1-minute OHLC dataset (2013–2025)** is available on Gumroad.  
-Includes trade-reconstructed candles, zero gaps, and verified data quality.
-# Sample format (list of lists)
-[
-   [timestamp_ms, open, high, low, close, volume],
-   ...
-]
+- Algorithmic trading research  
+- Backtesting engines  
+- AI/ML modeling  
+- Market microstructure analysis  
+- Statistical validation  
+- Candle reconstruction benchmarking  
 
+Unlike typical exchange-provided candles, this dataset is **rebuilt entirely from raw trades**, ensuring:
 
+✔ Zero intentional gaps  
+✔ Millisecond-accurate timestamps  
+✔ True trade-derived candles  
+✔ Perfect 1-minute boundaries  
+✔ Accurate base-currency volume  
+✔ Long-range consistency (2013–2025)
 
+---
 
-[
-  timestamp_ms,    // Unix timestamp in milliseconds
-  open,            // Opening price of the minute
-  high,            // Highest price of the minute
-  low,             // Lowest price of the minute
-  close,           // Closing price of the minute
-  volume           // Trade volume (base currency)
-]
+# 📦 Free Sample Files
+
+Free sample files included in this repository to validate structure and data quality.
+
+---
+
+## 🗓 1-Month Sample — November 2025 (Recent)
+**File:** `xbtusd_1m_2025-11_sample.json.zip`  
+**Candles:** 43,200  
+**Range:** 2025-11-01 → 2025-11-30  
+
+A full month of modern XBTUSD 1-minute candles, ideal for testing continuity, timestamps, and reconstruction quality.
+
+---
+
+## 🕰 20MB Historical Sample — 2013–2017
+**File:** `xbtusd_1m_sample_20mb.zip`  
+**Candles:** 349,376  
+**Range:** 2013-10-06 → 2017-06-27  
+
+A historical slice showing early Kraken BTC/USD trading behavior and long-term reconstruction consistency.
+
+---
+
+## 📅 20MB Recent Sample — 2025
+**File:** `xbtusd_1m_sample_recent_20mb.zip`  
+**Candles:** 361,005  
+**Range:** 2025-03-24 → 2025-11-30  
+
+A multi-month recent sample demonstrating modern liquidity and the output of the reconstruction pipeline.
+
+---
+
+# 📘 Column Definitions
+
+Each 1-minute candle is stored in this format:
+
