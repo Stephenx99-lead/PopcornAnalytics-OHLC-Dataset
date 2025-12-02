@@ -3,6 +3,22 @@ High-quality crypto OHLC dataset reconstructed from raw Kraken trades (2013–20
 
 ---
 
+## 🛒 Full Dataset (2013–2025)
+
+If you want the complete **XBTUSD 1-minute OHLC dataset reconstructed from raw trades**, you can get it here:
+
+👉 **Gumroad:** https://popcornanalytics.gumroad.com/l/xwnuid
+
+Includes:
+
+- 12+ years of continuous data  
+- Zero gaps  
+- Accurate OHLCV reconstructed from trades  
+- Verified millisecond timestamps  
+- Research-grade dataset  
+
+---
+
 ## 📌 Overview
 
 This repository contains multiple **XBTUSD 1-minute OHLC samples** reconstructed directly from raw Kraken trade data using a custom pipeline.
