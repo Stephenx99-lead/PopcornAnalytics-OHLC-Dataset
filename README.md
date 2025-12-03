@@ -1,6 +1,6 @@
 # PopcornAnalytics-OHLC-Dataset
 High-quality crypto OHLC dataset reconstructed from raw Kraken trades (2013–2025). Free samples included.
-
+https://www.reddit.com/r/PopcornAnalytics/
 ---
 
 ## 🛒 Full Dataset (2013–2025)
